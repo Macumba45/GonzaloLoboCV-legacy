@@ -1,0 +1,84 @@
+section .profile-back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/yoRecortado60.png);
+    /* background-repeat: no-repeat; */
+    background-position: center top;
+    background-attachment: scroll; 
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    box-shadow: 0px 5px 20px black;
+    filter: brightness(70%);
+}
+
+/* section .yoGonzalo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+
+.yoGonzalo h1{
+
+    text-align: center;
+    font-size: 10vmin;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    top: 550px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    /* filter: brightness(130%); */
+}
+
+
+/* Móviles en horizontal o tablets en vertical */
+
+
+
+@media (min-width:768px){
+
+
+    .yoGonzalo h1{
+
+        top: 500px;
+
+    }
+    
+
+
+
+      /* Tablets en horizonal y escritorios normales */
+
+      @media (min-width:1024px){
+
+        section .profile-back{
+
+
+            min-height: 900px;
+        }
+
+        .yoGonzalo h1{
+
+            top: 800px;
+    
+        }
+        
+
+
+        
+
+
+    }
+
+
+
+}
+
+

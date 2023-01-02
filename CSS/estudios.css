@@ -1,0 +1,130 @@
+#estudios h2{
+
+    font-size: 3em;
+    /* text-align: center; */
+    color: black;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    
+}
+
+
+.title {
+
+    text-align: center;
+    margin-bottom: 1em;
+    /* background-color: gold;
+    width: 30px; */
+    
+    
+}
+
+
+
+
+main .estudios-realizados{
+
+    text-align: center;
+    
+
+}
+
+
+
+main .estudios-realizados p{
+
+    margin: 0.5em 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5em;
+    
+}
+
+main .estudios-realizados img{
+
+    width: 60px;
+    height: 60px;
+    margin: 0px 30px;
+}
+
+main p .colombia{
+
+    width: 15px;
+    height: 15px;
+    margin: 0;
+
+
+}
+
+
+
+
+/* Tablets en horizonal y escritorios normales */
+
+
+
+@media (min-width:1024px){
+
+    .wrapper{
+
+        /* background-color: rgb(252, 252, 252); */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 600px;
+        margin-top: 20px;
+    }
+
+    #estudios h2{
+
+        font-size: 3em;
+        /* text-align: center; */
+        color: black;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        
+    }
+
+    #estudiosTotal{
+   
+        /* border-right: 1px dashed gold; */
+        margin-top: 50px;
+        border-right: 0.5mm ridge gold;
+        
+         
+         
+        
+     }
+
+
+    main .estudios-realizados{
+
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin: 0 40px 0 40px;
+       
+
+    }
+
+    hr{
+        display: none;
+    }
+
+
+
+    .estudios-realizados1{
+        margin: 5px;
+    }
+
+    .estudios-realizados2{
+        margin: 5px;
+        position: relative;
+        top: 100px;
+    }
+
+    .estudios-realizados3{
+        margin: 5px;
+    }
+
+}

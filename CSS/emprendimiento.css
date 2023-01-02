@@ -1,0 +1,50 @@
+/* .emprendimiento{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+.emprendimiento .tunait{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+
+.emprendimiento h2{
+
+    font-size: 3em;
+    text-align: center;
+    color: black;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    
+
+    
+}
+
+.emprendimiento img{
+
+    border-radius:50px;
+    margin: 0 0 20px 0;
+    border: 2px solid gold
+}
+
+
+.emprendimiento h3{
+
+    margin: 10px 0 10px 0;
+}
+
+.emprendimiento p{
+
+    margin: 10px 0 10px 0;
+    font-size: 0.8em;
+}
+
+

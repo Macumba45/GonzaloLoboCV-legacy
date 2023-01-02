@@ -1,0 +1,103 @@
+main .experiencias h2{
+
+    font-size: 3em;
+    text-align: center;
+    color: black;
+    margin-bottom: 2em;
+    margin-top: 2em;    
+
+
+}
+
+/* .experienciasTodo{
+
+    background-color: rgb(136, 136, 136);
+    margin-right: 10px;
+} */
+
+main .experiencias{
+
+    text-align: center;
+    
+}
+
+main .experiencias p{
+    margin: 0.5em 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 100;
+    line-height: 1.5em;
+}
+
+
+/* Tablets en horizonal y escritorios normales */
+
+@media (min-width:1024px){
+
+    main.experienciasTodo{
+        
+        margin-top:50px;
+
+    }
+
+
+
+    main .experiencias h2{
+
+        font-size: 3em;
+        text-align: center;
+        color: black;
+        margin: 1em 0 1em 0;
+
+    
+    
+    }
+
+
+    main .trabajos{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    
+    }
+
+    hr{
+
+        width: 2em;
+        height: 1px;
+        background-color: black;
+        border: none;
+        /* margin: 0px 80px; */
+        background-color: rgb(221, 201, 90);
+    
+    }
+
+    main .trabajo1{
+
+        margin: 5px;
+
+
+    }
+
+    main .trabajo2{
+
+        margin: 5px;
+        position: relative;
+        top: 100px;
+        margin: 0 30px 0 30px;
+
+
+    }
+
+    main .trabajo3{
+
+        margin: 5px;
+
+
+    }
+
+
+}
