@@ -1,4 +1,4 @@
-footer .foot{
+footer .foot {
 
     background-color: black;
     max-width: 100%;
@@ -7,11 +7,19 @@ footer .foot{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
+    display: flex;
+    flex-direction: column;
+
+
 }
 
-footer p{
+footer p {
 
     color: white;
+    font-weight: 100;
+}
+
+.linkedin {
+    width: 30px;
+    margin-top: 20px;
 }

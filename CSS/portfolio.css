@@ -8,3 +8,16 @@
     text-align: center;
 
 }
+
+#porfolioWebs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.porfolioWebsDisplay {
+    width: 220px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
