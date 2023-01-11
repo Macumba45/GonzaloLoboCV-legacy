@@ -28,7 +28,10 @@
 
 }
 
-#paul {
+#paul,
+#brenes {
+    margin-top: 30px;
+    width: 550px;
     text-align: center;
     font-weight: 100;
 }
