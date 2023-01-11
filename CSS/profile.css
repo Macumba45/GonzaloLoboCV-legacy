@@ -1,11 +1,11 @@
-section .profile-back{
+section .profile-back {
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(../img/yoRecortado60.png);
     /* background-repeat: no-repeat; */
     background-position: center top;
-    background-attachment: scroll; 
+    background-attachment: scroll;
     background-size: cover;
     min-height: 600px;
     width: 100%;
@@ -21,7 +21,8 @@ section .profile-back{
 } */
 
 
-.yoGonzalo h1{
+
+.yoGonzalo h1 {
 
     text-align: center;
     font-size: 10vmin;
@@ -42,37 +43,37 @@ section .profile-back{
 
 
 
-@media (min-width:768px){
+@media (min-width:768px) {
 
 
-    .yoGonzalo h1{
+    .yoGonzalo h1 {
 
         top: 500px;
 
     }
-    
 
 
 
-      /* Tablets en horizonal y escritorios normales */
 
-      @media (min-width:1024px){
+    /* Tablets en horizonal y escritorios normales */
 
-        section .profile-back{
+    @media (min-width:1024px) {
+
+        section .profile-back {
 
 
             min-height: 900px;
         }
 
-        .yoGonzalo h1{
+        .yoGonzalo h1 {
 
             top: 800px;
-    
+
         }
-        
 
 
-        
+
+
 
 
     }
@@ -80,5 +81,3 @@ section .profile-back{
 
 
 }
-
-

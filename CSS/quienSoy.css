@@ -1,4 +1,4 @@
-main .quienSoy h2{
+main .quienSoy h2 {
 
     font-size: 3em;
     text-align: center;
@@ -7,7 +7,7 @@ main .quienSoy h2{
     margin-top: 1em;
 }
 
-main .quienSoy p{
+main .quienSoy p {
 
     text-align: center;
     margin: 10px 2em;
@@ -16,9 +16,9 @@ main .quienSoy p{
 }
 
 
-@media (min-width:1024px){
+@media (min-width:1024px) {
 
-    main .quienSoy p{
+    main .quienSoy p {
 
         padding: 0 300px 0 300px;
         margin-bottom: 10px;
