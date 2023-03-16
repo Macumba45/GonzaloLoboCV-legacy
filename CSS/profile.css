@@ -7,10 +7,13 @@ section .profile-back {
     background-position: center top;
     background-attachment: scroll;
     background-size: cover;
-    min-height: 600px;
-    width: 100%;
+    min-height: 300px;
+    width: 300px;
+    margin: 0 auto;
     box-shadow: 0px 5px 20px black;
-    filter: brightness(70%);
+    filter: brightness(90%);
+    border-radius: 150px;
+    margin-top: 4rem;
 }
 
 /* section .yoGonzalo{
@@ -22,62 +25,13 @@ section .profile-back {
 
 
 
-.yoGonzalo h1 {
+.tituloH1 {
 
+    color: black;
     text-align: center;
-    font-size: 10vmin;
-    color: white;
-    font-weight: 600;
-    position: absolute;
-    top: 550px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    z-index: 1;
-    /* filter: brightness(130%); */
+    margin-top: 3rem;
+    font-size: 2rem;
 }
 
 
 /* Móviles en horizontal o tablets en vertical */
-
-
-
-@media (min-width:768px) {
-
-
-    .yoGonzalo h1 {
-
-        top: 500px;
-
-    }
-
-
-
-
-    /* Tablets en horizonal y escritorios normales */
-
-    @media (min-width:1024px) {
-
-        section .profile-back {
-
-
-            min-height: 900px;
-        }
-
-        .yoGonzalo h1 {
-
-            top: 800px;
-
-        }
-
-
-
-
-
-
-    }
-
-
-
-}

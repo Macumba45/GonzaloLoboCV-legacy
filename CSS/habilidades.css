@@ -7,6 +7,35 @@
   margin-top: 2em;
 }
 
+/* 
+.skills {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+} */
+
+.logo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+
+}
+
+.logos {
+
+
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  ;
+
+}
+
 
 
 .skill-bars {
