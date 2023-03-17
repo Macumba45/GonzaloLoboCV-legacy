@@ -1,28 +1,29 @@
-body{
+body {
 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+
 }
 
-strong{
+strong {
 
     font-weight: 600;
-    
+
 }
 
-q{
+q {
     font-size: 0.9em;
     font-weight: 100;
 }
 
-span{
+span {
 
     font-weight: 100;
-    font-size: 0.7em;
+    font-size: 1.8rem;
+    line-height: 3rem;
 }
 
 
-hr{
+hr {
 
     width: 2em;
     height: 1px;
